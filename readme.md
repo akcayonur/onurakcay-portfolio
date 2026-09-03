@@ -34,3 +34,8 @@ git push
 - Eğitim bilgileri tamamen kaldırıldı.
 - Yabancı dil / İngilizce bilgileri tamamen kaldırıldı.
 - Site yalnızca profesyonel profil, teknik yetkinlik, deneyim, projeler, sertifikalar ve iletişim bilgilerine odaklanıyor.
+
+## v8
+- Sertifikalar bölümü ve menü bağlantısı tamamen kaldırıldı.
+- Profil fotoğrafı büyük kart yerine 38x38 px küçük kimlik chip'i olarak kullanılıyor.
+- Projeler bölümü özel highlight alanı, impact chip'leri ve daha güçlü kart vurgularıyla güncellendi.
