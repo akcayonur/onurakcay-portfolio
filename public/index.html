@@ -1,12 +1,338 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Onur Akçay</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Onur Akçay - IT Infrastructure & Security Specialist. Infrastructure, network, security, virtualization and automation portfolio." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Onur Akçay | IT Infrastructure & Security Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Onur Akçay</h1>
-  <p>IT Infrastructure & Security Specialist</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">OA<span>.</span></a>
+
+      <nav class="nav-links" aria-label="Ana menü">
+        <a href="#about">Hakkımda</a>
+        <a href="#skills">Yetkinlikler</a>
+        <a href="#experience">Deneyim</a>
+        <a href="#projects">Projeler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">IT INFRASTRUCTURE · NETWORK · SECURITY</p>
+          <h1>Onur Akçay</h1>
+          <h2>IT Infrastructure &amp; Security Specialist</h2>
+          <p class="hero-text">
+            Kurumsal altyapıların güvenli, sürdürülebilir ve yüksek erişilebilirlikte
+            çalışması için network, güvenlik, sanallaştırma, sistem ve otomasyon
+            çözümleri tasarlıyor ve yönetiyorum.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Projeleri Gör</a>
+            <a class="btn btn-secondary" href="#contact">İletişim</a>
+          </div>
+
+          <div class="hero-tags" aria-label="Uzmanlık alanları">
+            <span>Infrastructure</span>
+            <span>Network</span>
+            <span>Security</span>
+            <span>Virtualization</span>
+            <span>Automation</span>
+          </div>
+        </div>
+
+        <aside class="terminal-card" aria-label="Profil özeti">
+          <div class="terminal-top">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="terminal-body">
+            <p><b>$</b> whoami</p>
+            <p class="output">onur.akcay</p>
+            <p><b>$</b> focus --list</p>
+            <p class="output">F5 · Palo Alto · FortiGate</p>
+            <p class="output">VMware · Veeam · Windows · Linux</p>
+            <p class="output">AD · PKI · TLS · Wazuh</p>
+            <p><b>$</b> status</p>
+            <p class="output success">● building secure infrastructure</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">HAKKIMDA</p>
+          <h2 class="section-title">Operasyonun ötesinde, mimariye odaklı.</h2>
+        </div>
+
+        <div class="section-copy">
+          <p>
+            Sistem, network ve güvenlik operasyonlarında kurumsal altyapıların
+            tasarımı, güvenliği ve sürekliliği üzerine çalışıyorum.
+          </p>
+          <p>
+            Çalışmalarım; load balancer ve firewall mimarilerinden sanallaştırma
+            ve yedekleme altyapılarına, Active Directory ve sertifika yönetiminden
+            merkezi loglama ve güvenlik sertleştirmelerine kadar uzanıyor.
+          </p>
+          <p>
+            Amacım yalnızca çalışan sistemler kurmak değil; yönetilebilir,
+            gözlemlenebilir ve güvenli altyapılar oluşturmak.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">YETKİNLİKLER</p>
+        <h2 class="section-title">Teknik çalışma alanları</h2>
+
+        <div class="skill-grid">
+          <article class="card skill-card">
+            <div class="card-icon">01</div>
+            <h3>Network &amp; Security</h3>
+            <p>Firewall, VPN, segmentation, NAT, routing, secure remote access ve network troubleshooting.</p>
+            <div class="tech-list">Palo Alto · FortiGate · Cisco · GlobalProtect</div>
+          </article>
+
+          <article class="card skill-card">
+            <div class="card-icon">02</div>
+            <h3>Application Delivery</h3>
+            <p>HTTPS publishing, load balancing, TLS hardening, health monitoring ve trafik yönlendirme.</p>
+            <div class="tech-list">F5 BIG-IP · LTM · iRules · SSL/TLS</div>
+          </article>
+
+          <article class="card skill-card">
+            <div class="card-icon">03</div>
+            <h3>Virtualization &amp; Backup</h3>
+            <p>Kurumsal sanallaştırma platformları, VM lifecycle yönetimi, yedekleme ve recovery süreçleri.</p>
+            <div class="tech-list">VMware · vCenter · ESXi · Hyper-V · Veeam</div>
+          </article>
+
+          <article class="card skill-card">
+            <div class="card-icon">04</div>
+            <h3>Systems &amp; Identity</h3>
+            <p>Windows/Linux sunucu operasyonları, kimlik servisleri, DNS, DHCP ve sertifika altyapıları.</p>
+            <div class="tech-list">Windows Server · Linux · AD · DNS · DHCP · PKI</div>
+          </article>
+
+          <article class="card skill-card">
+            <div class="card-icon">05</div>
+            <h3>Monitoring &amp; Logging</h3>
+            <p>Altyapı görünürlüğü, merkezi log toplama, alarm mekanizmaları ve olay inceleme süreçleri.</p>
+            <div class="tech-list">Wazuh · PRTG · Splunk · Syslog</div>
+          </article>
+
+          <article class="card skill-card">
+            <div class="card-icon">06</div>
+            <h3>Automation &amp; Operations</h3>
+            <p>Tekrarlanan operasyonların sadeleştirilmesi, script tabanlı işler ve standardizasyon.</p>
+            <div class="tech-list">PowerShell · Bash · Python · REST API</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section-kicker">DENEYİM</p>
+        <h2 class="section-title">Kurumsal altyapı operasyonları</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-head">
+                <h3>IT Infrastructure &amp; Security</h3>
+                <span>Enterprise Environments</span>
+              </div>
+              <p>
+                Sanallaştırma, network, firewall, load balancer, backup, Windows/Linux
+                sistemleri ve güvenlik servislerinin günlük operasyonu, değişiklik yönetimi,
+                sorun giderme ve iyileştirme çalışmaları.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-head">
+                <h3>Infrastructure Hardening &amp; Compliance</h3>
+                <span>Security Focus</span>
+              </div>
+              <p>
+                TLS sertleştirmeleri, erişim kısıtlamaları, firewall rule cleanup,
+                merkezi loglama, MFA entegrasyonları ve denetim gereksinimlerine yönelik
+                güvenlik iyileştirmeleri.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">SEÇİLİ PROJELER</p>
+        <h2 class="section-title">Gerçek altyapı problemlerine gerçek çözümler</h2>
+
+        <div class="project-grid">
+          <article class="card project-card">
+            <div class="project-meta">
+              <span>Application Delivery</span>
+              <span>F5 BIG-IP</span>
+            </div>
+            <h3>Centralized Application Access</h3>
+            <p>
+              Birden fazla backend servisini tek HTTPS erişim noktası altında toplamak,
+              kaynak IP erişimini sınırlandırmak ve path tabanlı trafik yönlendirmek için
+              merkezi F5 mimarisi.
+            </p>
+            <ul>
+              <li>Path-based routing</li>
+              <li>TLS termination</li>
+              <li>Backend isolation</li>
+              <li>Source IP restriction</li>
+            </ul>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-meta">
+              <span>Security</span>
+              <span>TLS / PKI</span>
+            </div>
+            <h3>TLS Hardening &amp; Certificate Lifecycle</h3>
+            <p>
+              Legacy TLS protokollerinin kapatılması, TLS 1.2 standardizasyonu ve
+              kurumsal sertifika yaşam döngüsünün operasyonel olarak yönetilmesi.
+            </p>
+            <ul>
+              <li>TLS 1.0 / 1.1 removal</li>
+              <li>Certificate chain validation</li>
+              <li>CSR / PFX operations</li>
+              <li>Load balancer SSL profiles</li>
+            </ul>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-meta">
+              <span>Identity Security</span>
+              <span>MFA</span>
+            </div>
+            <h3>Enterprise VPN MFA Architecture</h3>
+            <p>
+              Remote access güvenliğini artırmak için VPN kimlik doğrulamasına
+              password + OTP yapısının entegre edilmesi.
+            </p>
+            <ul>
+              <li>GlobalProtect</li>
+              <li>FreeRADIUS</li>
+              <li>privacyIDEA</li>
+              <li>LDAP integration</li>
+            </ul>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-meta">
+              <span>Observability</span>
+              <span>SIEM / Logging</span>
+            </div>
+            <h3>Centralized Security Logging</h3>
+            <p>
+              Firewall ve sistem loglarının merkezi bir platformda toplanması,
+              aranabilir hale getirilmesi ve güvenlik olaylarının görünürlüğünün artırılması.
+            </p>
+            <ul>
+              <li>Wazuh</li>
+              <li>Syslog</li>
+              <li>Firewall log ingestion</li>
+              <li>Security monitoring</li>
+            </ul>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-meta">
+              <span>Virtualization</span>
+              <span>Business Continuity</span>
+            </div>
+            <h3>VMware &amp; Backup Operations</h3>
+            <p>
+              Sanal sunucu yaşam döngüsü, vCenter/ESXi operasyonları, recovery
+              senaryoları ve Veeam tabanlı yedekleme süreçlerinin yönetimi.
+            </p>
+            <ul>
+              <li>VMware vSphere</li>
+              <li>vCenter / ESXi</li>
+              <li>Veeam Backup</li>
+              <li>Recovery operations</li>
+            </ul>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-meta">
+              <span>Systems</span>
+              <span>Infrastructure</span>
+            </div>
+            <h3>Windows &amp; Linux Platform Operations</h3>
+            <p>
+              Kurumsal Windows/Linux sunucularında servis operasyonları, migration,
+              depolama, dosya paylaşımı ve temel platform servislerinin yönetimi.
+            </p>
+            <ul>
+              <li>Active Directory</li>
+              <li>Samba / SFTP</li>
+              <li>Nginx / IIS</li>
+              <li>Linux storage &amp; services</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="project-note">
+          Güvenlik ve gizlilik nedeniyle proje detaylarında müşteri isimleri,
+          gerçek IP adresleri ve hassas konfigürasyonlar paylaşılmamaktadır.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker">İLETİŞİM</p>
+          <h2>Bir altyapı problemi mi var?</h2>
+          <p>
+            Infrastructure, network veya security konularında iletişime geçebilirsiniz.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <!-- Aşağıdaki href alanlarını kendi LinkedIn / e-posta adresinle değiştir. -->
+          <a class="btn btn-primary" href="mailto:yourmail@example.com">E-posta Gönder</a>
+          <a class="btn btn-secondary" href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Onur Akçay</span>
+      <span>Built for the web.</span>
+    </div>
+  </footer>
 </body>
 </html>
