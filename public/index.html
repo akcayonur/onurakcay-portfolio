@@ -4,233 +4,283 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Onur Akçay - Sistem & Altyapı Kıdemli Danışmanı. Kurumsal BT altyapıları, sanallaştırma, ağ güvenliği, F5 BIG-IP, VMware, Veeam, FortiGate, Palo Alto ve Windows/Linux sistemleri." />
-  <meta name="theme-color" content="#ffffff" />
   <title>Onur Akçay | Sistem & Altyapı Kıdemli Danışmanı</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <a href="#home" class="brand">ONUR AKÇAY<span>.</span></a>
-      <nav class="nav-links" aria-label="Ana menü">
-        <a href="#about">Hakkımda</a>
-        <a href="#experience">Deneyim</a>
-        <a href="#projects">Projeler</a>
-        <a href="#skills">Beceriler</a>
-        <a href="#contact">İletişim</a>
-      </nav>
-      <a class="nav-cta" href="assets/Onur_AKCAY_CV.pdf" target="_blank" rel="noopener">CV</a>
+  <div class="page-shell">
+    <aside class="rail">
+      <a class="rail-brand" href="#home">OA</a>
+      <div class="rail-line"></div>
+      <div class="rail-label">INFRA / SECURITY</div>
+      <div class="rail-social">
+        <a href="https://www.linkedin.com/in/akcayonur/" target="_blank" rel="noopener">in</a>
+        <a href="mailto:akcay.onur41@gmail.com">@</a>
+      </div>
+    </aside>
+
+    <div class="site">
+      <header class="topbar">
+        <div class="topbar-inner">
+          <a href="#home" class="nameplate">Onur Akçay</a>
+          <nav>
+            <a href="#profile">Profil</a>
+            <a href="#stack">Stack</a>
+            <a href="#experience">Deneyim</a>
+            <a href="#projects">Projeler</a>
+            <a href="#contact">İletişim</a>
+          </nav>
+          <a class="cv-chip" href="assets/Onur_AKCAY_CV.pdf" target="_blank" rel="noopener">CV ↗</a>
+        </div>
+      </header>
+
+      <main>
+        <section id="home" class="hero">
+          <div class="hero-bg-code">01</div>
+          <div class="hero-copy">
+            <p class="mono overline">SENIOR INFRASTRUCTURE & SYSTEMS CONSULTANT</p>
+            <h1>Secure systems.<br>Resilient infrastructure.<br><span>Clear operations.</span></h1>
+            <p class="lead">
+              9+ yıllık deneyimle sanallaştırma, network security, load balancing,
+              backup & disaster recovery, monitoring ve kurumsal sistem operasyonları üzerinde çalışıyorum.
+            </p>
+            <div class="hero-links">
+              <a class="primary-link" href="#projects">Seçili projeler</a>
+              <a class="ghost-link" href="https://www.linkedin.com/in/akcayonur/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="profile-card">
+              <div class="profile-image">
+                <img src="assets/profile.jpg" alt="Onur Akçay" onerror="this.style.display='none';this.parentNode.classList.add('fallback');">
+                <span>OA</span>
+              </div>
+              <div class="profile-meta">
+                <div><span>LOCATION</span><strong>Tuzla, İstanbul</strong></div>
+                <div><span>EXPERIENCE</span><strong>9+ years</strong></div>
+                <div><span>FOCUS</span><strong>Infrastructure / Security</strong></div>
+                <div><span>LANGUAGE</span><strong>English B2</strong></div>
+              </div>
+            </div>
+
+            <div class="status-card">
+              <span class="pulse"></span>
+              <div>
+                <small>Current focus</small>
+                <strong>High availability, security hardening & operational resilience</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="profile" class="section split-section">
+          <div class="section-index mono">02 / PROFILE</div>
+          <div class="section-title">
+            <h2>Operasyondan mimariye.</h2>
+          </div>
+          <div class="section-body prose">
+            <p>
+              Kurumsal BT altyapıları, sanallaştırma, ağ güvenliği ve yüksek erişilebilirlik çözümlerinde
+              9+ yıllık deneyime sahibim.
+            </p>
+            <p>
+              VMware vSphere, Veeam Backup & Replication, F5 BIG-IP, FortiGate, Palo Alto,
+              Windows Server ve Linux platformlarında tasarım, devreye alma ve operasyon tecrübesine sahibim.
+              Finans sektöründe PCI DSS uyumlu altyapıların tasarımı, load balancer ve firewall yönetimi,
+              merkezi loglama/monitoring ve disaster recovery süreçlerinde aktif rol alıyorum.
+            </p>
+          </div>
+        </section>
+
+        <section id="stack" class="section stack-section">
+          <div class="section-index mono">03 / STACK</div>
+          <div class="stack-head">
+            <h2>Teknoloji yığını</h2>
+            <p>Günlük operasyon ve proje çalışmalarında aktif kullandığım ana teknoloji alanları.</p>
+          </div>
+
+          <div class="stack-board">
+            <div class="stack-col">
+              <span class="mono">01</span>
+              <h3>Virtualization</h3>
+              <p>VMware ESXi</p>
+              <p>vCenter</p>
+              <p>HPE SimpliVity</p>
+              <p>Hyper-V</p>
+            </div>
+            <div class="stack-col">
+              <span class="mono">02</span>
+              <h3>Network & Security</h3>
+              <p>F5 BIG-IP</p>
+              <p>FortiGate</p>
+              <p>Palo Alto</p>
+              <p>VPN / IPsec / SD-WAN</p>
+            </div>
+            <div class="stack-col">
+              <span class="mono">03</span>
+              <h3>Microsoft & Linux</h3>
+              <p>Windows Server</p>
+              <p>Active Directory</p>
+              <p>DNS / DHCP / GPO / IIS</p>
+              <p>Linux / Bash / PowerShell</p>
+            </div>
+            <div class="stack-col">
+              <span class="mono">04</span>
+              <h3>Observability & DR</h3>
+              <p>Veeam B&R</p>
+              <p>Splunk</p>
+              <p>PRTG</p>
+              <p>Zabbix / QNAP</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-index mono">04 / EXPERIENCE</div>
+          <div class="experience-head">
+            <h2>Kariyer akışı</h2>
+            <p>Operasyon, çözüm tasarımı ve teknik danışmanlık sorumluluklarının birleştiği bir kariyer çizgisi.</p>
+          </div>
+
+          <div class="experience-table">
+            <article>
+              <div class="when mono">2026—NOW</div>
+              <div class="role">
+                <h3>Sistem ve Altyapı Teknolojileri Kıdemli Danışmanı</h3>
+                <p>İNNOVA BİLİŞİM ÇÖZÜMLERİ · İstanbul</p>
+              </div>
+              <div class="desc">
+                Kurumsal sistem ve altyapı teknolojilerinin tasarım, iyileştirme ve dönüşüm süreçlerinde teknik danışmanlık; VMware, F5 BIG-IP, Veeam, FortiGate/Palo Alto, Windows Server ve Linux üzerinde yüksek erişilebilirlik, güvenlik ve iş sürekliliği odaklı çözüm tasarımı.
+              </div>
+            </article>
+
+            <article>
+              <div class="when mono">2025</div>
+              <div class="role">
+                <h3>Finansal Altyapı Teknolojileri Danışmanı</h3>
+                <p>İNNOVA BİLİŞİM ÇÖZÜMLERİ · İstanbul</p>
+              </div>
+              <div class="desc">
+                Sanallaştırma, backup/disaster recovery, F5 BIG-IP, güvenlik altyapıları, PCI DSS uyumlu mimariler ve merkezi izleme/loglama süreçlerinde çözüm tasarımı ve teknik danışmanlık.
+              </div>
+            </article>
+
+            <article>
+              <div class="when mono">2024—2025</div>
+              <div class="role">
+                <h3>Finansal Altyapı Teknolojileri Kıdemli Uzmanı</h3>
+                <p>İNNOVA BİLİŞİM ÇÖZÜMLERİ · İstanbul</p>
+              </div>
+              <div class="desc">
+                Finansal sistemleri destekleyen fiziksel ve sanal sunucu altyapılarının operasyon, bakım ve süreklilik süreçleri; VMware, Veeam, F5 BIG-IP, Windows/Linux, Splunk ve PRTG operasyonları.
+              </div>
+            </article>
+
+            <article>
+              <div class="when mono">2017—2024</div>
+              <div class="role">
+                <h3>Bilgi Teknolojileri Destek Uzmanı</h3>
+                <p>GALVA METAL SAN. VE TİC. A.Ş. · Kocaeli</p>
+              </div>
+              <div class="desc">
+                Windows Server, Active Directory, VMware ESXi/vCenter, HPE SimpliVity, Veeam, FortiGate, Microsoft 365, HP/Aruba, Zabbix, endpoint security ve PowerShell otomasyonları.
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+          <div class="section-index mono">05 / PROJECTS</div>
+          <div class="projects-intro">
+            <h2>Seçili çalışmalar</h2>
+            <p>Production ortamında güvenlik, erişilebilirlik ve operasyonel görünürlük hedefleriyle hayata geçirilen örnek projeler.</p>
+          </div>
+
+          <div class="project-list">
+            <article>
+              <div class="project-id mono">P01</div>
+              <div class="project-copy">
+                <div class="project-topline"><span>F5 BIG-IP</span><span>iRules</span><span>TLS</span></div>
+                <h3>Merkezi ve Güvenli Servis Erişim Mimarisi</h3>
+                <p>İnternet üzerinden yayınlanan servisler için F5 BIG-IP üzerinde merkezi erişim mimarisi tasarlandı. Host/path bazlı trafik yönlendirme, erişim kontrolü ve SSL/TLS yönetimi ile backend servisler tek HTTPS giriş noktası arkasında izole edildi.</p>
+              </div>
+              <div class="project-mark">↗</div>
+            </article>
+
+            <article>
+              <div class="project-id mono">P02</div>
+              <div class="project-copy">
+                <div class="project-topline"><span>PRTG</span><span>PowerShell</span><span>Active Directory</span></div>
+                <h3>AD Servis Hesaplarının Merkezi İzlenmesi</h3>
+                <p>Servis hesaplarının parola ve hesap geçerlilik süreleri PRTG üzerinde PowerShell tabanlı custom sensörlerle merkezi olarak izlenerek Warning/Error eşikleri ve bildirim mekanizmaları oluşturuldu.</p>
+              </div>
+              <div class="project-mark">↗</div>
+            </article>
+
+            <article>
+              <div class="project-id mono">P03</div>
+              <div class="project-copy">
+                <div class="project-topline"><span>Palo Alto</span><span>FreeRADIUS</span><span>privacyIDEA</span></div>
+                <h3>GlobalProtect MFA Entegrasyonu</h3>
+                <p>VPN erişimlerinde parola + OTP tabanlı çok faktörlü kimlik doğrulama mimarisi oluşturuldu. Palo Alto, FreeRADIUS, privacyIDEA ve LDAP entegrasyonlarıyla merkezi authentication akışı devreye alındı.</p>
+              </div>
+              <div class="project-mark">↗</div>
+            </article>
+
+            <article>
+              <div class="project-id mono">P04</div>
+              <div class="project-copy">
+                <div class="project-topline"><span>FortiGate</span><span>Veeam</span><span>Windows Server</span></div>
+                <h3>Galva Makina Altyapı Kurulumu</h3>
+                <p>FortiGate firewall, NAT/VPN/IPsec, HPE fiziksel sunucular, Windows Server, Active Directory, File Server, Veeam + QNAP yedekleme ve Zabbix monitoring bileşenlerinden oluşan altyapının devreye alınması.</p>
+              </div>
+              <div class="project-mark">↗</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section certs-section">
+          <div class="section-index mono">06 / CREDENTIALS</div>
+          <div class="cert-grid">
+            <div>
+              <h2>Sertifikalar</h2>
+              <ul>
+                <li>Microsoft Certified Solutions Expert (MCSE)</li>
+                <li>Fortinet NSE 1, 2, 3 — Network Security Expert</li>
+                <li>Uygulamalı Sızma Testi Uzmanlığı</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Eğitim</h2>
+              <p>Kocaeli Üniversitesi</p>
+              <p class="muted">Önlisans · 2015—2017 · Kocaeli, Türkiye</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact">
+          <div class="contact-index mono">07 / CONTACT</div>
+          <h2>Let’s build something<br><span>reliable.</span></h2>
+          <div class="contact-bottom">
+            <div class="contact-copy">Infrastructure, systems, network veya security konularında iletişime geçebilirsiniz.</div>
+            <div class="contact-links">
+              <a href="mailto:akcay.onur41@gmail.com">akcay.onur41@gmail.com ↗</a>
+              <a href="tel:+905397632564">+90 539 763 25 64 ↗</a>
+              <a href="https://www.linkedin.com/in/akcayonur/" target="_blank" rel="noopener">linkedin.com/in/akcayonur ↗</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>© 2026 ONUR AKÇAY</span>
+        <span>SYSTEMS · INFRASTRUCTURE · SECURITY</span>
+      </footer>
     </div>
-  </header>
-
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">SENIOR INFRASTRUCTURE & SYSTEMS CONSULTANT</p>
-          <h1>Kurumsal altyapıları<br><span>güvenli ve sürdürülebilir</span><br>hale getiriyorum.</h1>
-          <p class="hero-description">
-            9+ yıllık deneyimle sanallaştırma, ağ güvenliği, yüksek erişilebilirlik,
-            backup & disaster recovery, load balancer, monitoring ve merkezi loglama
-            çözümleri üzerinde çalışıyorum.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-dark" href="#projects">Projeleri İncele</a>
-            <a class="btn btn-light" href="assets/Onur_AKCAY_CV.pdf" target="_blank" rel="noopener">CV'yi Görüntüle</a>
-          </div>
-        </div>
-
-        <div class="portrait-wrap">
-          <div class="portrait-card">
-            <!-- LinkedIn profil fotoğrafı doğrudan çekilemediği için assets/profile.jpg eklendiğinde otomatik gösterilir. -->
-            <img src="assets/profile.jpg" alt="Onur Akçay" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
-            <div class="portrait-fallback">OA</div>
-          </div>
-          <div class="portrait-caption">
-            <span class="status-dot"></span>
-            <span>İstanbul, Türkiye</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="container stats">
-        <div class="stat"><strong>9+</strong><span>Yıl Deneyim</span></div>
-        <div class="stat"><strong>4</strong><span>Öne Çıkan Proje</span></div>
-        <div class="stat"><strong>3</strong><span>Ana Uzmanlık Alanı</span></div>
-        <div class="stat"><strong>B2</strong><span>İngilizce</span></div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container section-grid">
-        <div class="section-heading">
-          <p class="kicker">01 — HAKKIMDA</p>
-          <h2>Altyapı, güvenlik ve süreklilik odağında.</h2>
-        </div>
-        <div class="rich-text">
-          <p>
-            Kurumsal BT altyapıları, sanallaştırma, ağ güvenliği ve yüksek erişilebilirlik
-            çözümlerinde 9+ yıllık deneyime sahibim. VMware vSphere, Veeam Backup &amp; Replication,
-            F5 BIG-IP, FortiGate, Palo Alto, Windows Server ve Linux platformlarında tasarım,
-            devreye alma ve operasyon tecrübesine sahibim.
-          </p>
-          <p>
-            Finans sektöründe PCI DSS uyumlu altyapıların tasarımı, load balancer ve firewall
-            yönetimi, merkezi loglama/monitoring ve disaster recovery süreçlerinde aktif rol alıyorum.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section soft">
-      <div class="container">
-        <div class="section-heading wide">
-          <p class="kicker">02 — DENEYİM</p>
-          <h2>Operasyondan teknik danışmanlığa uzanan deneyim.</h2>
-        </div>
-
-        <div class="experience-list">
-          <article class="experience-item">
-            <div class="exp-date">2026 — Günümüz</div>
-            <div class="exp-main">
-              <h3>Sistem ve Altyapı Teknolojileri Kıdemli Danışmanı</h3>
-              <p class="company">İNNOVA BİLİŞİM ÇÖZÜMLERİ · İstanbul</p>
-              <p>Kurumsal sistem ve altyapı teknolojilerinin tasarım, iyileştirme ve dönüşüm süreçlerinde teknik danışmanlık; VMware, F5 BIG-IP, Veeam, FortiGate/Palo Alto, Windows Server ve Linux üzerinde yüksek erişilebilirlik, güvenlik ve iş sürekliliği odaklı çözüm tasarımı.</p>
-            </div>
-          </article>
-
-          <article class="experience-item">
-            <div class="exp-date">2025</div>
-            <div class="exp-main">
-              <h3>Finansal Altyapı Teknolojileri Danışmanı</h3>
-              <p class="company">İNNOVA BİLİŞİM ÇÖZÜMLERİ · İstanbul</p>
-              <p>Kurumsal altyapı projelerinde çözüm tasarımı ve teknik danışmanlık; sanallaştırma, yedekleme/felaket kurtarma, F5 BIG-IP, güvenlik altyapıları, PCI DSS uyumlu mimariler ve merkezi izleme/loglama süreçlerinin geliştirilmesi.</p>
-            </div>
-          </article>
-
-          <article class="experience-item">
-            <div class="exp-date">2024 — 2025</div>
-            <div class="exp-main">
-              <h3>Finansal Altyapı Teknolojileri Kıdemli Uzmanı</h3>
-              <p class="company">İNNOVA BİLİŞİM ÇÖZÜMLERİ · İstanbul</p>
-              <p>Finansal sistemleri destekleyen fiziksel ve sanal sunucu altyapılarının operasyon, bakım ve süreklilik süreçleri; VMware, Veeam, F5 BIG-IP, Windows Server/Linux, Splunk ve PRTG operasyonları.</p>
-            </div>
-          </article>
-
-          <article class="experience-item">
-            <div class="exp-date">2017 — 2024</div>
-            <div class="exp-main">
-              <h3>Bilgi Teknolojileri Destek Uzmanı</h3>
-              <p class="company">GALVA METAL SAN. VE TİC. A.Ş. · Kocaeli</p>
-              <p>Windows Server, AD/DNS/DHCP/GPO, VMware ESXi/vCenter, HPE SimpliVity, Veeam, FortiGate, Microsoft 365, HP/Aruba ağ altyapısı, Zabbix, endpoint security ve PowerShell otomasyonları.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <div class="section-heading wide">
-          <p class="kicker">03 — PROJELER</p>
-          <h2>Üretim ortamında uygulanan seçili çalışmalar.</h2>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card featured">
-            <div class="project-number">01</div>
-            <div class="project-tags"><span>F5 BIG-IP</span><span>iRules</span><span>TLS</span></div>
-            <h3>Merkezi ve Güvenli Servis Erişim Mimarisi</h3>
-            <p>İnternet üzerinden yayınlanan servisler için F5 BIG-IP üzerinde merkezi erişim mimarisi tasarlandı. Host/path bazlı trafik yönlendirme, erişim kontrolü ve SSL/TLS yönetimi ile backend servisler tek HTTPS giriş noktası arkasında izole edildi.</p>
-          </article>
-
-          <article class="project-card">
-            <div class="project-number">02</div>
-            <div class="project-tags"><span>PRTG</span><span>PowerShell</span><span>Active Directory</span></div>
-            <h3>AD Servis Hesaplarının Merkezi İzlenmesi</h3>
-            <p>Servis hesaplarının parola ve hesap geçerlilik süreleri PRTG üzerinde PowerShell tabanlı custom sensörlerle merkezi olarak izlenerek Warning/Error eşikleri ve bildirim mekanizmaları oluşturuldu.</p>
-          </article>
-
-          <article class="project-card">
-            <div class="project-number">03</div>
-            <div class="project-tags"><span>Palo Alto</span><span>FreeRADIUS</span><span>privacyIDEA</span></div>
-            <h3>GlobalProtect MFA Entegrasyonu</h3>
-            <p>VPN erişimlerinde parola + OTP tabanlı çok faktörlü kimlik doğrulama mimarisi oluşturuldu. Palo Alto, FreeRADIUS, privacyIDEA ve LDAP entegrasyonlarıyla merkezi authentication akışı devreye alındı.</p>
-          </article>
-
-          <article class="project-card">
-            <div class="project-number">04</div>
-            <div class="project-tags"><span>FortiGate</span><span>Windows Server</span><span>Veeam</span></div>
-            <h3>Galva Makina Altyapı Kurulumu</h3>
-            <p>FortiGate firewall, NAT/VPN/IPsec, HPE fiziksel sunucular, Windows Server, Active Directory, File Server, Veeam + QNAP yedekleme ve Zabbix monitoring bileşenlerinden oluşan altyapının devreye alınması.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section dark">
-      <div class="container">
-        <div class="section-heading wide light-heading">
-          <p class="kicker">04 — BECERİLER</p>
-          <h2>Teknik yetkinlikler.</h2>
-        </div>
-
-        <div class="skills-grid">
-          <div class="skill-group"><span>01</span><h3>Virtualization & Compute</h3><p>VMware ESXi, vCenter, HPE SimpliVity, Hyper-V</p></div>
-          <div class="skill-group"><span>02</span><h3>Microsoft Infrastructure</h3><p>Windows Server, Active Directory, DNS, DHCP, GPO, IIS, Microsoft 365</p></div>
-          <div class="skill-group"><span>03</span><h3>Network & Security</h3><p>F5 BIG-IP, FortiGate, Palo Alto, VLAN, NAT, VPN, IPsec, SD-WAN</p></div>
-          <div class="skill-group"><span>04</span><h3>Backup & Storage</h3><p>Veeam Backup & Replication, QNAP NAS, Backup & Disaster Recovery</p></div>
-          <div class="skill-group"><span>05</span><h3>Monitoring & Logging</h3><p>Splunk, PRTG, Zabbix</p></div>
-          <div class="skill-group"><span>06</span><h3>Security & Compliance</h3><p>PCI DSS, Vulnerability Management, TLS/SSL, Certificate Management</p></div>
-          <div class="skill-group"><span>07</span><h3>Linux & Automation</h3><p>Linux, Bash, PowerShell</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container credentials-grid">
-        <div>
-          <p class="kicker">05 — SERTİFİKALAR</p>
-          <h2 class="compact-title">Sertifikalar</h2>
-          <ul class="clean-list">
-            <li>Microsoft Certified Solutions Expert (MCSE)</li>
-            <li>Fortinet NSE 1, 2, 3 — Network Security Expert</li>
-            <li>Uygulamalı Sızma Testi Uzmanlığı</li>
-          </ul>
-        </div>
-        <div>
-          <p class="kicker">06 — EĞİTİM</p>
-          <h2 class="compact-title">Kocaeli Üniversitesi</h2>
-          <p class="education-text">Önlisans · 2015 — 2017 · Kocaeli, Türkiye</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-      <div class="container contact-grid">
-        <div>
-          <p class="kicker">07 — İLETİŞİM</p>
-          <h2>Bağlantı kuralım.</h2>
-          <p>Kurumsal altyapı, sistem, network ve security konularında benimle iletişime geçebilirsiniz.</p>
-        </div>
-        <div class="contact-links">
-          <a href="mailto:akcay.onur41@gmail.com"><span>E-posta</span><strong>akcay.onur41@gmail.com</strong></a>
-          <a href="tel:+905397632564"><span>Telefon</span><strong>+90 539 763 25 64</strong></a>
-          <a href="https://www.linkedin.com/in/akcayonur/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>linkedin.com/in/akcayonur/</strong></a>
-          <div class="location-row"><span>Konum</span><strong>Tuzla, İstanbul, Türkiye</strong></div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-row">
-      <span>© 2026 Onur Akçay</span>
-      <span>Sistem & Altyapı Kıdemli Danışmanı</span>
-    </div>
-  </footer>
+  </div>
 </body>
 </html>
