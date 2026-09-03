@@ -1,13 +1,5 @@
-# Onur Akçay Portfolio v3
+# Onur Akçay Portfolio v4
 
-Özgün, teknik dashboard/portfolio yaklaşımında tasarlanmış statik site.
+Minimal dark portfolio. Menü ve sol rail korunarak tipografi ve genel yoğunluk sadeleştirildi.
 
-## Not
 Profil fotoğrafını `public/assets/profile.jpg` olarak ekleyin.
-
-## Deploy
-```bash
-git add .
-git commit -m "Redesign portfolio v3"
-git push
-```
