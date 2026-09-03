@@ -23,3 +23,14 @@ git add .
 git commit -m "Update portfolio v5"
 git push
 ```
+
+## v6
+- Büyük ana sayfa profil kartı kaldırıldı.
+- Fotoğraf Profil bölümüne küçük ve sade bir kart olarak taşındı.
+- Hero alanı daha minimal, tek kolon hale getirildi.
+
+## v7
+- Konum bilgileri tamamen kaldırıldı.
+- Eğitim bilgileri tamamen kaldırıldı.
+- Yabancı dil / İngilizce bilgileri tamamen kaldırıldı.
+- Site yalnızca profesyonel profil, teknik yetkinlik, deneyim, projeler, sertifikalar ve iletişim bilgilerine odaklanıyor.
