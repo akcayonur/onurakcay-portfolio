@@ -39,3 +39,18 @@ git push
 - Sertifikalar bölümü ve menü bağlantısı tamamen kaldırıldı.
 - Profil fotoğrafı büyük kart yerine 38x38 px küçük kimlik chip'i olarak kullanılıyor.
 - Projeler bölümü özel highlight alanı, impact chip'leri ve daha güçlü kart vurgularıyla güncellendi.
+
+## v10
+- Full HD / 2K ekranlarda okunabilirlik artırıldı.
+- Genel font ölçeği büyütüldü.
+- Çok küçük 0.5-0.7rem metinler büyütüldü.
+- Proje kartı, navigation, deneyim ve iletişim yazıları güçlendirildi.
+- Maksimum içerik genişliği 1380px / büyük ekranlarda 1480px yapıldı.
+- 1440px ve 1900px üzeri ekranlar için ayrı responsive ölçek eklendi.
+
+## v11
+- Site tamamen açık temaya geçirildi.
+- Arka plan açık gri/beyaz tonlara taşındı.
+- Kartlar beyaz, borderlar açık gri oldu.
+- Metin kontrastı açık temaya göre yeniden ayarlandı.
+- Yeşil accent korunarak profesyonel/teknik kimlik sürdürüldü.
